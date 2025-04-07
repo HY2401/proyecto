@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopetas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .carousel-item img {
+            height: 500px;
+            width: 100%;
+            object-fit: contain; 
+        }
+        .carousel-caption {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <span style="color: black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gun's</span> 
+            <span style="color: gold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Club</span> 
+            <i class="bi bi-emoji-dizzy"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
+                <li><a class="dropdown-item" href="Inicio.html"></li>
+            </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Armas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="rifle.html">Rifle de asalto</a></li>
+                  <li><a class="dropdown-item" href="pistolas.html">Pistolas</a></li>
+                  <li><a class="dropdown-item" href="escopetas.html">Escopeta</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="container my-5">
+        <H1>ESCOPETAS</H1>
+        <p>Una escopeta es un arma de fuego larga, diseñada para disparar múltiples proyectiles (perdigones o postas) en cada disparo. Son utilizadas en la caza, el tiro deportivo y la defensa personal debido a su capacidad para cubrir un área amplia con cada disparo.</p>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/Ithaca_37.webp" class="d-block w-100" alt="Escopeta Ithaca 37">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ithaca 37</h5>
+                    <p>Escopeta de corredera.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Rem870.webp" class="d-block w-100" alt="Escopeta Remington 870">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Remington 870</h5>
+                    <p>Escopeta de corredera.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/FranchiSPAS12.webp" class="d-block w-100" alt="Escopeta Franchi SPAS 12">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Franchi SPAS 12</h5>
+                    <p>Escopeta de combate.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Gun's Club. Todos los derechos reservados.</p>
+        <div>
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pistolas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .carousel-item img {
+            height: 1100px; /* Ajusta la altura deseada */
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <span style="color: black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gun's</span> 
+            <span style="color: gold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Club</span> 
+            <i class="bi bi-emoji-dizzy"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
+                <li><a class="dropdown-item" href="Inicio.html"></li>
+            </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Armas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="rifle.html">Rifle de asalto</a></li>
+                  <li><a class="dropdown-item" href="pistolas.html">Pistolas</a></li>
+                  <li><a class="dropdown-item" href="escopetas.html">Escopeta</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--Pequeña descripcion-->
+    <div class="container my-5">
+        <H1>PISTOLAS</H1>
+        <p>Una pistola es un arma de fuego corta, diseñada para ser disparada con una sola mano. Generalmente, utilizan cartuchos de pistola y son conocidas por su portabilidad y facilidad de uso en situaciones de corto alcance.</p>
+    </div>
+<!--Inicio de carusel de berreta-->
+    <div id="carouselExampleBeretta" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleBeretta" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleBeretta" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleBeretta" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/BerettaM15.webp" class="d-block w-100" alt="Pistola Beretta M15">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Beretta_M1951.webp" class="d-block w-100" alt="Pistola Beretta M1951">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Untitledberetta93r.webp" class="d-block w-100" alt="Pistola Beretta 93R">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleBeretta" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleBeretta" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--Carusel de CZs-->
+    <div id="carouselExampleCz" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCz" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCz" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCz" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/CVz27.webp" class="d-block w-100" alt="Pistola Cz 27">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/cz75.webp" class="d-block w-100" alt="Pistola Cz 75">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/cz75.webp" class="d-block w-100" alt="Pistola Cz 75">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCz" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCz" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--Carusel de Glock-->
+    <div id="carouselExampleGlock" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleGlock" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleGlock" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleGlock" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/G17L.webp" class="d-block w-100" alt="Pistola Glock 17L">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/G26B.webp" class="d-block w-100" alt="Pistola Glock 26B">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/G17pro.webp" class="d-block w-100" alt="Pistola Glock 24">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleGlock" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleGlock" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2025 Gun's Club. Todos los derechos reservados.</p>
+        <div>
+            <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
